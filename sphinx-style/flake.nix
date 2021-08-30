@@ -1,11 +1,13 @@
 {
   description = "Androsphinx - a SPHINX app for Android.";
 
-  inputs.nixpkgs = {
-    url = "github:NixOS/nixpkgs/nixos-21.05";
+  inputs = {
+    nixpkgs.url = "nixpkgs/nixos-21.05";
+    gradle2nix.url = "github:tadfisher/gradle2nix";
+    conversations-src = { url = "github:inputmice/conversations"; flake = false; };
   };
 
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs, gradle2nix, conversations-src }:
     let
       # System types to support.
       supportedSystems = [ "x86_64-linux" ];
@@ -19,6 +21,8 @@
       # Helper function to generate an attrset '{ x86_64-linux = f "x86_64-linux"; ... }'.
       forAllSystems = f:
         nixpkgs.lib.genAttrs supportedSystems (system: f system);
+      
+      lib = nixpkgs.lib;
 
       android = {
         versions = {
@@ -81,18 +85,51 @@
       devShell = forAllSystems (system:
         with nixpkgsFor.${system};
         mkShell rec {
-          buildInputs =
-            [ sdk.androidsdk adoptopenjdk-jre-openj9-bin-15 gradle ];
+          buildInputs = [
+            sdk.androidsdk
+            adoptopenjdk-jre-openj9-bin-15
+            gradle
+            gradle2nix.outputs.defaultPackage."${system}"
+          ];
           ANDROID_SDK_ROOT = "${sdk.androidsdk}/libexec/android-sdk";
           JAVA_HOME = "${adoptopenjdk-jre-openj9-bin-15.home}";
           GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${ANDROID_SDK_ROOT}/build-tools/${android.versions.buildTools}/aapt2";
           # DEBUG_APK = "${conversations}/app-debug.apk";
+          src = conversations-src;
         });
 
       # Provide some binary packages for selected system types.
       packages = forAllSystems (system: {
         inherit (nixpkgsFor.${system}) conversations;
       });
+
+      apps = forAllSystems (system: 
+        let
+          pkgs = nixpkgsFor."${system}";
+        in
+        {
+          run-gradle2nix = {
+            type = "app";
+            program = builtins.toString (pkgs.writeScript "run-gradle2nix" ''
+              PATH=${lib.makeBinPath (with pkgs; [
+                coreutils
+                gnused
+                gradle2nix.outputs.defaultPackage."${system}"
+              ])}
+              set -e
+              rm -rf src
+              cp -r ${conversations-src} src
+              chmod -R +w src
+              
+              gradle2nix \
+                -o pkgs/conversations/ \
+                -a assembleConversationsFreeSystemDebug \
+                src
+              rm -rf src
+            '');
+          };
+        }
+      );
 
       defaultPackage =
         forAllSystems (system: self.packages.${system}.conversations);

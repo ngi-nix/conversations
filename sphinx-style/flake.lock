@@ -1,0 +1,94 @@
+{
+  "nodes": {
+    "conversations-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630050475,
+        "narHash": "sha256-qDN36N5Rbrxq1vIIH7piKPy84vs+wP+61b83uwnhXnY=",
+        "owner": "inputmice",
+        "repo": "conversations",
+        "rev": "80d8b6dd880fc51aa928eee4056159e72df796a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "inputmice",
+        "repo": "conversations",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1605370193,
+        "narHash": "sha256-YyMTf3URDL/otKdKgtoMChu4vfVL3vCMkRqpGifhUn0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5021eac20303a61fafe17224c087f5519baed54d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "gradle2nix": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1615424709,
+        "narHash": "sha256-N45ncEA9tA8iT0EqxmlEtqrd81m4dXRHe/w2oWXT4lg=",
+        "owner": "tadfisher",
+        "repo": "gradle2nix",
+        "rev": "fafe5b7e0b0caf4682111e594bb9087559ee3a4f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tadfisher",
+        "repo": "gradle2nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1607536117,
+        "narHash": "sha256-q3xr1fz93VNMnZjpqLN3VyphED2UxO6pd8jR8B4S+lo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b8936e55235bb4a970514d4bb9fbd77a2c16b806",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1630076329,
+        "narHash": "sha256-mkxPL5pXZv8cfHgjSW0oWfZRGSSlGwXy/7KR+2Mgf3M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "74d017edb6717ad76d38edc02ad3210d4ad66b96",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-21.05",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "conversations-src": "conversations-src",
+        "gradle2nix": "gradle2nix",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

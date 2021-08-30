@@ -14,7 +14,7 @@ buildGradle {
   '';
 
   gradleFlags = [
-    "check"
+    "build"
   ];
 
   installPhase = ''
