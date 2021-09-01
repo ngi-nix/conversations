@@ -4,1169 +4,1170 @@
     "version": "unspecified",
     "path": "",
     "gradle": {
-      "version": "7.0",
+      "version": "7.0.2",
       "type": "bin",
-      "url": "https://services.gradle.org/distributions/gradle-7.0-bin.zip",
-      "sha256": "eb8b89184261025b0430f5b2233701ff1377f96da1ef5e278af6ae8bac5cc305",
-      "nativeVersion": "0.22-milestone-11"
+      "url": "https://services.gradle.org/distributions/gradle-7.0.2-bin.zip",
+      "sha256": "0e46229820205440b48a5501122002842b82886e76af35f0f3a069243dca4b3c",
+      "nativeVersion": "0.22-milestone-16"
     },
     "dependencies": {
+      "settings": [],
       "plugin": [],
       "buildscript": [
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "databinding-common-4.2.1.jar",
-          "path": "androidx/databinding/databinding-common/4.2.1",
+          "name": "databinding-common-7.0.1.jar",
+          "path": "androidx/databinding/databinding-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/4.2.1/databinding-common-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.0.1/databinding-common-7.0.1.jar"
           ],
-          "sha256": "4c10017bc927f42627397c4ad2ab46b3bdb9b28e4e86c0bdb62d898aeeff1415"
+          "sha256": "605514f0a525e0bae51d8e1a414a4bc4ccac51d0a3c4843fe720897dc89c7c15"
         },
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "databinding-common-4.2.1.module",
-          "path": "androidx/databinding/databinding-common/4.2.1",
+          "name": "databinding-common-7.0.1.module",
+          "path": "androidx/databinding/databinding-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/4.2.1/databinding-common-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.0.1/databinding-common-7.0.1.module"
           ],
-          "sha256": "935d6531bfdde37de53b6a4838f0006f3861e92904a3f46ff3c2b4286066955a"
+          "sha256": "bdb29575754b2fe441fdaf4dc8d2703604fde9513c40fd7832d27a01e28660e1"
         },
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "databinding-common-4.2.1.pom",
-          "path": "androidx/databinding/databinding-common/4.2.1",
+          "name": "databinding-common-7.0.1.pom",
+          "path": "androidx/databinding/databinding-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/4.2.1/databinding-common-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.0.1/databinding-common-7.0.1.pom"
           ],
-          "sha256": "81fe03e88abbd04671ff5f37d0d0ac72421ac9a6dbd1fd81c2505abef3008d51"
+          "sha256": "15fc014d5ce2c418dcef7e724519e45cc722499d257f49be7abaa508ed4b9100"
         },
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-compiler-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "databinding-compiler-common-4.2.1.jar",
-          "path": "androidx/databinding/databinding-compiler-common/4.2.1",
+          "name": "databinding-compiler-common-7.0.1.jar",
+          "path": "androidx/databinding/databinding-compiler-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/4.2.1/databinding-compiler-common-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.0.1/databinding-compiler-common-7.0.1.jar"
           ],
-          "sha256": "f387c65ebf3b413a89b640fe106c9b8b5165f787637bbf8840b7803f97e9ed48"
+          "sha256": "0ae44b1ab4886b9dc9f81ca3cb905cb980e9cbbc149fdbbb3b9139133291504c"
         },
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-compiler-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "databinding-compiler-common-4.2.1.module",
-          "path": "androidx/databinding/databinding-compiler-common/4.2.1",
+          "name": "databinding-compiler-common-7.0.1.module",
+          "path": "androidx/databinding/databinding-compiler-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/4.2.1/databinding-compiler-common-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.0.1/databinding-compiler-common-7.0.1.module"
           ],
-          "sha256": "8973cee818f0e49401f8d38fdc7a2360a5db15f807f982800943a7aa53e669cb"
+          "sha256": "ed5be9d621e079b01e37e2619000eb21a4a8c01f012b7468f836e4323216e461"
         },
         {
           "id": {
             "group": "androidx.databinding",
             "name": "databinding-compiler-common",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "databinding-compiler-common-4.2.1.pom",
-          "path": "androidx/databinding/databinding-compiler-common/4.2.1",
+          "name": "databinding-compiler-common-7.0.1.pom",
+          "path": "androidx/databinding/databinding-compiler-common/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/4.2.1/databinding-compiler-common-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.0.1/databinding-compiler-common-7.0.1.pom"
           ],
-          "sha256": "57544704bd240187c0c62b9bbd5db364406b8dd2aa1f35ccf0cf64aba060d927"
+          "sha256": "5df7ec5146bbca6466348dbab0b6e1b40b218cee5dd6f0a007d0c5ca99f555dd"
         },
         {
           "id": {
             "group": "com.android",
             "name": "signflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "signflinger-4.2.1.jar",
-          "path": "com/android/signflinger/4.2.1",
+          "name": "signflinger-7.0.1.jar",
+          "path": "com/android/signflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/signflinger/4.2.1/signflinger-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/signflinger/7.0.1/signflinger-7.0.1.jar"
           ],
-          "sha256": "90ddb3e00cbeabff00fc014947a4de2504567e43eafabdb0f920c99d9ee29572"
+          "sha256": "43934ddd4cbd550fa8ff9708b8db0f21f47a0bc5d18a632b4acdee2fb35e2d27"
         },
         {
           "id": {
             "group": "com.android",
             "name": "signflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "signflinger-4.2.1.module",
-          "path": "com/android/signflinger/4.2.1",
+          "name": "signflinger-7.0.1.module",
+          "path": "com/android/signflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/signflinger/4.2.1/signflinger-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/signflinger/7.0.1/signflinger-7.0.1.module"
           ],
-          "sha256": "2418e4e8b2c421df6ff682ea572c4ab2ff303ffd63edecb5a4b26917d8c06ac1"
+          "sha256": "e900b61add6ea4463376dd7d74f94745ed2393eefe2f53c9c50e9fd580889512"
         },
         {
           "id": {
             "group": "com.android",
             "name": "signflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "signflinger-4.2.1.pom",
-          "path": "com/android/signflinger/4.2.1",
+          "name": "signflinger-7.0.1.pom",
+          "path": "com/android/signflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/signflinger/4.2.1/signflinger-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/signflinger/7.0.1/signflinger-7.0.1.pom"
           ],
-          "sha256": "b5c371d294d92a90f4519f693703405eb04ca5bc64725f8e28dbd77c8e339e17"
+          "sha256": "a92e983565ec7cb53683fc94eda73b8e24dc334a55ca1a29297d2f0c3041ea31"
         },
         {
           "id": {
             "group": "com.android",
             "name": "zipflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "zipflinger-4.2.1.jar",
-          "path": "com/android/zipflinger/4.2.1",
+          "name": "zipflinger-7.0.1.jar",
+          "path": "com/android/zipflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/4.2.1/zipflinger-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.0.1/zipflinger-7.0.1.jar"
           ],
-          "sha256": "a00f8e0126c19695c779971ea8ecce9374cb696cc78fce62028749938ba461ef"
+          "sha256": "fc3ba861da60cdb7a8436b5e1d58dea6b489f3ae52dade389c49fb225594d8bd"
         },
         {
           "id": {
             "group": "com.android",
             "name": "zipflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "zipflinger-4.2.1.module",
-          "path": "com/android/zipflinger/4.2.1",
+          "name": "zipflinger-7.0.1.module",
+          "path": "com/android/zipflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/4.2.1/zipflinger-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.0.1/zipflinger-7.0.1.module"
           ],
-          "sha256": "4ec89174d178a3dd706506998f64d690c3273898aacb11d6c94a4cf6d9e19faa"
+          "sha256": "07772d8b6a20311bd057d4a93291698be0bb86c7c5c120942aad4429d0fd25d8"
         },
         {
           "id": {
             "group": "com.android",
             "name": "zipflinger",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "zipflinger-4.2.1.pom",
-          "path": "com/android/zipflinger/4.2.1",
+          "name": "zipflinger-7.0.1.pom",
+          "path": "com/android/zipflinger/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/4.2.1/zipflinger-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.0.1/zipflinger-7.0.1.pom"
           ],
-          "sha256": "b78dcc80298b745b2b178cd14f4d7720a375cff86af15eb6be9bd1ff94ee1117"
+          "sha256": "d6aa1c48f87d8b95e70e391650fce199d332a84a55b060bad63c2c9ae56ff535"
         },
         {
           "id": {
             "group": "com.android.databinding",
             "name": "baseLibrary",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "baseLibrary-4.2.1.jar",
-          "path": "com/android/databinding/baseLibrary/4.2.1",
+          "name": "baseLibrary-7.0.1.jar",
+          "path": "com/android/databinding/baseLibrary/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/4.2.1/baseLibrary-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.0.1/baseLibrary-7.0.1.jar"
           ],
-          "sha256": "efef9b153c42eb4b78f7a9cdb00ba8ddc6c81c5a0c792d3cf8788b99a35f3f64"
+          "sha256": "9a9dd460437b9900139163a2e4697fb1259b6d60638c68e499fa833aacabc9cd"
         },
         {
           "id": {
             "group": "com.android.databinding",
             "name": "baseLibrary",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "baseLibrary-4.2.1.module",
-          "path": "com/android/databinding/baseLibrary/4.2.1",
+          "name": "baseLibrary-7.0.1.module",
+          "path": "com/android/databinding/baseLibrary/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/4.2.1/baseLibrary-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.0.1/baseLibrary-7.0.1.module"
           ],
-          "sha256": "44895f69d3b2f22d25e53fe71c7ba125116871dabf488685bb2a356c455c8641"
+          "sha256": "b1516d61da9ae9869d231439221531f7a6f69264dd28e8a3b4189f8e9f9421bf"
         },
         {
           "id": {
             "group": "com.android.databinding",
             "name": "baseLibrary",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "baseLibrary-4.2.1.pom",
-          "path": "com/android/databinding/baseLibrary/4.2.1",
+          "name": "baseLibrary-7.0.1.pom",
+          "path": "com/android/databinding/baseLibrary/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/4.2.1/baseLibrary-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.0.1/baseLibrary-7.0.1.pom"
           ],
-          "sha256": "945b72824c14fb97117ca1ff317a4b854026b74108339c366ddfb25ae18fccb4"
+          "sha256": "81331e208cdbd59c5d303357a4d4ae1df99ffc7ff6db4a297b893d0b9483bc1c"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "annotations",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "annotations-27.2.1.jar",
-          "path": "com/android/tools/annotations/27.2.1",
+          "name": "annotations-30.0.1.jar",
+          "path": "com/android/tools/annotations/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/27.2.1/annotations-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.0.1/annotations-30.0.1.jar"
           ],
-          "sha256": "898149a83a49f20913f47b77aa78fa6a9c42c58673b0cfca377f8b870eee63b0"
+          "sha256": "3de85ff04b79871d2a6635e9ac043a3f30891b01d77add5b31240e408af08d10"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "annotations",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "annotations-27.2.1.module",
-          "path": "com/android/tools/annotations/27.2.1",
+          "name": "annotations-30.0.1.module",
+          "path": "com/android/tools/annotations/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/27.2.1/annotations-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.0.1/annotations-30.0.1.module"
           ],
-          "sha256": "ed6856a5302ccc5862e21637301fa878a6a7d03922237a7aa64981261fd80338"
+          "sha256": "c76cce90975bc3e85e670adfec7b99cbb491a442f58f4fe756605b100cbe77a1"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "annotations",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "annotations-27.2.1.pom",
-          "path": "com/android/tools/annotations/27.2.1",
+          "name": "annotations-30.0.1.pom",
+          "path": "com/android/tools/annotations/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/27.2.1/annotations-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.0.1/annotations-30.0.1.pom"
           ],
-          "sha256": "080611d6cf96554065e0123c06f36b3bed4e4aa1afea86d468c99e4eb1ae9589"
+          "sha256": "f13654b26d3c1d57f9a9edf989491eda9d6d4cc74daed1f1b06fe26a09137f2d"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "common-27.2.1.jar",
-          "path": "com/android/tools/common/27.2.1",
+          "name": "common-30.0.1.jar",
+          "path": "com/android/tools/common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/common/27.2.1/common-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/common/30.0.1/common-30.0.1.jar"
           ],
-          "sha256": "54fb5c771da68137e91a2a474d896efe2797cbeab69d6f449f60e4edc8f42f46"
+          "sha256": "76c68c0f98db4a80fdca2536a0ed8923245d1d3c46436bd1bcbcef2549b9d4f6"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "common-27.2.1.module",
-          "path": "com/android/tools/common/27.2.1",
+          "name": "common-30.0.1.module",
+          "path": "com/android/tools/common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/common/27.2.1/common-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/common/30.0.1/common-30.0.1.module"
           ],
-          "sha256": "7b14e7ce49b2c4047d0a6c1ab2d2419d81681294ef107b4753b4885b30f0c926"
+          "sha256": "46fe5dfc53831bc36fe2c79eb12271525f945ec14417ce56412383d556d6c0da"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "common-27.2.1.pom",
-          "path": "com/android/tools/common/27.2.1",
+          "name": "common-30.0.1.pom",
+          "path": "com/android/tools/common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/common/27.2.1/common-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/common/30.0.1/common-30.0.1.pom"
           ],
-          "sha256": "a85a18efb07a3ae1b9c095c3dfcd74f7037eb154a0d6007f63ef9c63cc7052a8"
+          "sha256": "296529693d98e37bf82c51571270323526bfbf92cc4105423ebbc37edbaaaf0f"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "dvlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "dvlib-27.2.1.jar",
-          "path": "com/android/tools/dvlib/27.2.1",
+          "name": "dvlib-30.0.1.jar",
+          "path": "com/android/tools/dvlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/27.2.1/dvlib-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.0.1/dvlib-30.0.1.jar"
           ],
-          "sha256": "00d012a78bc785327cea1c531332eee99c71e5746257dd006fb5793344caf2cd"
+          "sha256": "bbcf33e21b67857963ae10fec0422a4b48de40a4823de69c3f58c363fdb804a8"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "dvlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "dvlib-27.2.1.module",
-          "path": "com/android/tools/dvlib/27.2.1",
+          "name": "dvlib-30.0.1.module",
+          "path": "com/android/tools/dvlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/27.2.1/dvlib-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.0.1/dvlib-30.0.1.module"
           ],
-          "sha256": "0604a7588bc30d28a9960da662e9685b5ed26cedace051af36c7e4b5fa55578b"
+          "sha256": "e107b7f8de03c75dae0f3a2307dae516bd71f286212329e6c3ba8c2f9d9da8b2"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "dvlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "dvlib-27.2.1.pom",
-          "path": "com/android/tools/dvlib/27.2.1",
+          "name": "dvlib-30.0.1.pom",
+          "path": "com/android/tools/dvlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/27.2.1/dvlib-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.0.1/dvlib-30.0.1.pom"
           ],
-          "sha256": "55b12807214854dd74cd0b6c3eba83fee89395eeb382cc17ed923fa5be0a3c1d"
+          "sha256": "0d3fbe79de5733e93444a4053605c7b17fcf799f23587eda984e458164d17613"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "repository",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "repository-27.2.1.jar",
-          "path": "com/android/tools/repository/27.2.1",
+          "name": "repository-30.0.1.jar",
+          "path": "com/android/tools/repository/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/27.2.1/repository-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/30.0.1/repository-30.0.1.jar"
           ],
-          "sha256": "fcf13eccdf769380376f675595ab2ec527de9190137da252c896ff9444886ef8"
+          "sha256": "5b453279dfe14311c659b1b4f0467d9772770dd9d0753079577d5f4d85fdc28a"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "repository",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "repository-27.2.1.module",
-          "path": "com/android/tools/repository/27.2.1",
+          "name": "repository-30.0.1.module",
+          "path": "com/android/tools/repository/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/27.2.1/repository-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/30.0.1/repository-30.0.1.module"
           ],
-          "sha256": "f480d3f208d2a82cb5fb44b99648a537262722e32964d38fae27dc3fb7cb02ee"
+          "sha256": "909a279eb8d1a5f60c8204ad8bc95cee7ad136f15fc7ce0210fc6397feba5113"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "repository",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "repository-27.2.1.pom",
-          "path": "com/android/tools/repository/27.2.1",
+          "name": "repository-30.0.1.pom",
+          "path": "com/android/tools/repository/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/27.2.1/repository-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/repository/30.0.1/repository-30.0.1.pom"
           ],
-          "sha256": "59c10bf99faf953811904c9c151c57a8e64db654afef8d5d9f7b44ca82a89726"
+          "sha256": "f43ab0eace75d408de3b091cd42f37da25dcdf06a8be957a4fc644d1ec59b45b"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdk-common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "sdk-common-27.2.1.jar",
-          "path": "com/android/tools/sdk-common/27.2.1",
+          "name": "sdk-common-30.0.1.jar",
+          "path": "com/android/tools/sdk-common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/27.2.1/sdk-common-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.0.1/sdk-common-30.0.1.jar"
           ],
-          "sha256": "fcfe5fcc903e3a8037a53b3dd8ccf2ca021cd3e7b6820a1d289a7c20c427bcc0"
+          "sha256": "1a5da02ee832f1f0d3d7d5d7b71b238e6f640aea1116ca101a0a38dd6bc69081"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdk-common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "sdk-common-27.2.1.module",
-          "path": "com/android/tools/sdk-common/27.2.1",
+          "name": "sdk-common-30.0.1.module",
+          "path": "com/android/tools/sdk-common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/27.2.1/sdk-common-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.0.1/sdk-common-30.0.1.module"
           ],
-          "sha256": "b588e1067f8074d9b38e55b69fc2258ecd715b4471b1f03bb53b1d915a0447ff"
+          "sha256": "755c30dffb3d40c5b2a2eaca95d9f7e48e9cdaa2f9cf0208264cee40308742d9"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdk-common",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "sdk-common-27.2.1.pom",
-          "path": "com/android/tools/sdk-common/27.2.1",
+          "name": "sdk-common-30.0.1.pom",
+          "path": "com/android/tools/sdk-common/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/27.2.1/sdk-common-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.0.1/sdk-common-30.0.1.pom"
           ],
-          "sha256": "dd678caf8a5f7654beef98773b140db996b59fd8565dade9667dee402442b339"
+          "sha256": "21680f09bb03758088db446235a211095b2caad0f391d60fb8c7eb2e6ac72d73"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdklib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "sdklib-27.2.1.jar",
-          "path": "com/android/tools/sdklib/27.2.1",
+          "name": "sdklib-30.0.1.jar",
+          "path": "com/android/tools/sdklib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/27.2.1/sdklib-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/30.0.1/sdklib-30.0.1.jar"
           ],
-          "sha256": "a25e87f7bc176f4afc254b12c9b798eb5f22c921ebcb09fcfc014786e2c87845"
+          "sha256": "c1077b30e63204d11bed3c6e05080092ed5eae7563edefdce7274a388d4ef49b"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdklib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "sdklib-27.2.1.module",
-          "path": "com/android/tools/sdklib/27.2.1",
+          "name": "sdklib-30.0.1.module",
+          "path": "com/android/tools/sdklib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/27.2.1/sdklib-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/30.0.1/sdklib-30.0.1.module"
           ],
-          "sha256": "016b2f495a1c142ba1f157e741fad0b9cd3935bac962f42e6d7a74e5b85d7dc5"
+          "sha256": "f768666a9a1d0d5baa250fc1741f7361749d66868c57280dd6d88ecd70f0ac73"
         },
         {
           "id": {
             "group": "com.android.tools",
             "name": "sdklib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "sdklib-27.2.1.pom",
-          "path": "com/android/tools/sdklib/27.2.1",
+          "name": "sdklib-30.0.1.pom",
+          "path": "com/android/tools/sdklib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/27.2.1/sdklib-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/30.0.1/sdklib-30.0.1.pom"
           ],
-          "sha256": "a8df0d42664bda179036ebad88a9e8094dd8ecaeca5416fb9274ca9f406b5f61"
+          "sha256": "b8ce99d3915d9b9f5ea4a3249daffbe5c0a705cedb6499f1d3f92b827127d1f4"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "crash",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "crash-27.2.1.jar",
-          "path": "com/android/tools/analytics-library/crash/27.2.1",
+          "name": "crash-30.0.1.jar",
+          "path": "com/android/tools/analytics-library/crash/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/27.2.1/crash-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/30.0.1/crash-30.0.1.jar"
           ],
-          "sha256": "dc9cc72f113633f1eb03817ffadc4ecb3f7a15320ef213a3e71aa2715c678aa2"
+          "sha256": "9f061f7f801c8be3981d4ee9e77b4a853bf40574d00d228eaa5b79c9ab269fb1"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "crash",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "crash-27.2.1.module",
-          "path": "com/android/tools/analytics-library/crash/27.2.1",
+          "name": "crash-30.0.1.module",
+          "path": "com/android/tools/analytics-library/crash/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/27.2.1/crash-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/30.0.1/crash-30.0.1.module"
           ],
-          "sha256": "62a8e2be0e8f0130ab41be15ee06f31a1e680a6b78b36e445628d3e3d9e61865"
+          "sha256": "f3f26c6fa64e0abdd298bc9eb0f3a42b603ed1a655911bff7aa5e83533ffbddd"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "crash",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "crash-27.2.1.pom",
-          "path": "com/android/tools/analytics-library/crash/27.2.1",
+          "name": "crash-30.0.1.pom",
+          "path": "com/android/tools/analytics-library/crash/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/27.2.1/crash-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/30.0.1/crash-30.0.1.pom"
           ],
-          "sha256": "bca7d4de420a074c65379a21710fc1363b0189782166fa79ea7d8d7dff41a109"
+          "sha256": "4279c01eeeddbea536d0a45ca68e0759c214e8eaad44884d83cc0904335e3d4c"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "protos",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "protos-27.2.1.jar",
-          "path": "com/android/tools/analytics-library/protos/27.2.1",
+          "name": "protos-30.0.1.jar",
+          "path": "com/android/tools/analytics-library/protos/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/27.2.1/protos-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.0.1/protos-30.0.1.jar"
           ],
-          "sha256": "1ce0868dad3694e63f6203777444f36c335737a5836dda91e81185baa843c1db"
+          "sha256": "174aefa3d625169b62c63a57f8fc878009ac5d7c22572d3ed7a9b1dd44486fb0"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "protos",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "protos-27.2.1.module",
-          "path": "com/android/tools/analytics-library/protos/27.2.1",
+          "name": "protos-30.0.1.module",
+          "path": "com/android/tools/analytics-library/protos/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/27.2.1/protos-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.0.1/protos-30.0.1.module"
           ],
-          "sha256": "6a1a0fc2834abd9128e8ccb167852750bee396bb4a54b5f1fbbab9d28f13ebc5"
+          "sha256": "5708579d1fcf5d17f15d0f04ab467f68a77cc43104362ae8cc4920e451edc6a8"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "protos",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "protos-27.2.1.pom",
-          "path": "com/android/tools/analytics-library/protos/27.2.1",
+          "name": "protos-30.0.1.pom",
+          "path": "com/android/tools/analytics-library/protos/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/27.2.1/protos-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.0.1/protos-30.0.1.pom"
           ],
-          "sha256": "12bce2d005573b76281c4833a847c1e40033c65e9d026a45782d032b9c28d90f"
+          "sha256": "81c0021218c255211a392e8ccd3b036eb39e9970942c9568a1dcd02b041b970a"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "shared",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "shared-27.2.1.jar",
-          "path": "com/android/tools/analytics-library/shared/27.2.1",
+          "name": "shared-30.0.1.jar",
+          "path": "com/android/tools/analytics-library/shared/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/27.2.1/shared-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.0.1/shared-30.0.1.jar"
           ],
-          "sha256": "1e88737c2d846d126479de3d487643fb7d1f154faabbf46afc6c87c95016bdf9"
+          "sha256": "0cffc824843da395e9321e498d2682c265893b3b76a875a1ba5f36b50f76cc83"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "shared",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "shared-27.2.1.module",
-          "path": "com/android/tools/analytics-library/shared/27.2.1",
+          "name": "shared-30.0.1.module",
+          "path": "com/android/tools/analytics-library/shared/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/27.2.1/shared-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.0.1/shared-30.0.1.module"
           ],
-          "sha256": "88b6e86dbcd93fcc473db1bfd364123fa33fc83ba90c405e6cc78cab226872c9"
+          "sha256": "76cfbcc2e5f968e930ef040b4cd32d02963d4f6cc6c47d3ce39d01520e0209e8"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "shared",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "shared-27.2.1.pom",
-          "path": "com/android/tools/analytics-library/shared/27.2.1",
+          "name": "shared-30.0.1.pom",
+          "path": "com/android/tools/analytics-library/shared/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/27.2.1/shared-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.0.1/shared-30.0.1.pom"
           ],
-          "sha256": "6413da66f005aad4b3570a1f94cab1759d77f03d77f13accdec1a3c985440f59"
+          "sha256": "800d93aeb2da55d2281e817ae7d2185683382753fc4cde950cf36fc2e96be1c8"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "tracker",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "tracker-27.2.1.jar",
-          "path": "com/android/tools/analytics-library/tracker/27.2.1",
+          "name": "tracker-30.0.1.jar",
+          "path": "com/android/tools/analytics-library/tracker/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/27.2.1/tracker-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/30.0.1/tracker-30.0.1.jar"
           ],
-          "sha256": "1beca5db6495219d8924cabc5704a1e097eccc627f78bd764985bd3f7a174e5c"
+          "sha256": "0719425b8e248c123321b46a642f34e07531d51f74dfa01b33f7a13f77e43b32"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "tracker",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "tracker-27.2.1.module",
-          "path": "com/android/tools/analytics-library/tracker/27.2.1",
+          "name": "tracker-30.0.1.module",
+          "path": "com/android/tools/analytics-library/tracker/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/27.2.1/tracker-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/30.0.1/tracker-30.0.1.module"
           ],
-          "sha256": "f7687064683b856ab05cb265e69a5b0aa07581627d2de9c500f156870dd952ec"
+          "sha256": "221128eaadacc323c163be429aa881df27e7ff0b34476a40eeee254a91cb687e"
         },
         {
           "id": {
             "group": "com.android.tools.analytics-library",
             "name": "tracker",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "tracker-27.2.1.pom",
-          "path": "com/android/tools/analytics-library/tracker/27.2.1",
+          "name": "tracker-30.0.1.pom",
+          "path": "com/android/tools/analytics-library/tracker/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/27.2.1/tracker-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/30.0.1/tracker-30.0.1.pom"
           ],
-          "sha256": "cf6c15edcb8f3b9f0f528b8c4a0943cd94c48014e6886cfcd8c42058986d9ca6"
+          "sha256": "a546be654a86809fcb3dc3a8e34226820d1d7fb26b9bc0300244f155b131d4c3"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aapt2-proto",
-            "version": "4.2.1-7147631",
+            "version": "7.0.1-7396180",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "aapt2-proto-4.2.1-7147631.jar",
-          "path": "com/android/tools/build/aapt2-proto/4.2.1-7147631",
+          "name": "aapt2-proto-7.0.1-7396180.jar",
+          "path": "com/android/tools/build/aapt2-proto/7.0.1-7396180",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/4.2.1-7147631/aapt2-proto-4.2.1-7147631.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/7.0.1-7396180/aapt2-proto-7.0.1-7396180.jar"
           ],
-          "sha256": "1c315f59f7f9a1f0b479d59682880e6c6968bd7df41ddac4cc30b6c16e31b8b5"
+          "sha256": "74849b6f32a5d764db381705c419f240939d4ea6ee03e3eeb261debbc5e9ef8e"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aapt2-proto",
-            "version": "4.2.1-7147631",
+            "version": "7.0.1-7396180",
             "type": "module",
             "extension": "module"
           },
-          "name": "aapt2-proto-4.2.1-7147631.module",
-          "path": "com/android/tools/build/aapt2-proto/4.2.1-7147631",
+          "name": "aapt2-proto-7.0.1-7396180.module",
+          "path": "com/android/tools/build/aapt2-proto/7.0.1-7396180",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/4.2.1-7147631/aapt2-proto-4.2.1-7147631.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/7.0.1-7396180/aapt2-proto-7.0.1-7396180.module"
           ],
-          "sha256": "e23947074099b708abb8d57e966beb5948406bb23e057c3404482b90336402d8"
+          "sha256": "b8238c019f48b5ca9314c2b0bcecdce90e971d8f0c1ec1a54bad1a31dfffd1af"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aapt2-proto",
-            "version": "4.2.1-7147631",
+            "version": "7.0.1-7396180",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "aapt2-proto-4.2.1-7147631.pom",
-          "path": "com/android/tools/build/aapt2-proto/4.2.1-7147631",
+          "name": "aapt2-proto-7.0.1-7396180.pom",
+          "path": "com/android/tools/build/aapt2-proto/7.0.1-7396180",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/4.2.1-7147631/aapt2-proto-4.2.1-7147631.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/7.0.1-7396180/aapt2-proto-7.0.1-7396180.pom"
           ],
-          "sha256": "de2d71aca70554bc14aa3d12e099ef8bfebc83854f70fd77a4b40ec6c7fdfdcc"
+          "sha256": "6eefc5d685345544b911f558379dfffc3b4941dfb7c4f09411bacf1eaaa315a6"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aaptcompiler",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "aaptcompiler-4.2.1.jar",
-          "path": "com/android/tools/build/aaptcompiler/4.2.1",
+          "name": "aaptcompiler-7.0.1.jar",
+          "path": "com/android/tools/build/aaptcompiler/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/4.2.1/aaptcompiler-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.0.1/aaptcompiler-7.0.1.jar"
           ],
-          "sha256": "3eb1563fa0f5e3a1dc009ee2fd6b3ed88c9e091c9fb3794010491f056a6e32a3"
+          "sha256": "939ed0d6968f2fd2de4c1431460111b76b9b185c6bc042e91129fcc240a46c96"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aaptcompiler",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "aaptcompiler-4.2.1.module",
-          "path": "com/android/tools/build/aaptcompiler/4.2.1",
+          "name": "aaptcompiler-7.0.1.module",
+          "path": "com/android/tools/build/aaptcompiler/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/4.2.1/aaptcompiler-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.0.1/aaptcompiler-7.0.1.module"
           ],
-          "sha256": "1b8f054b58cb0f87a164dc1ca7d05ae3d4656220171ad04e1e0dc63719ab7986"
+          "sha256": "7b37fb38b2ba1e44cf7357ffdd6e090770393456a2a5d7313513e94c6c04a62f"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "aaptcompiler",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "aaptcompiler-4.2.1.pom",
-          "path": "com/android/tools/build/aaptcompiler/4.2.1",
+          "name": "aaptcompiler-7.0.1.pom",
+          "path": "com/android/tools/build/aaptcompiler/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/4.2.1/aaptcompiler-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.0.1/aaptcompiler-7.0.1.pom"
           ],
-          "sha256": "fe425064e7c42851953dfc09c1a3cec345aa4dd836c8a92b8c442ca3aaafe077"
+          "sha256": "383e9610b13e7aa8f3a1165fd21ec89a2dcaeb7ec653c2d4280e92e77c88d695"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apksig",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "apksig-4.2.1.jar",
-          "path": "com/android/tools/build/apksig/4.2.1",
+          "name": "apksig-7.0.1.jar",
+          "path": "com/android/tools/build/apksig/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/4.2.1/apksig-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.0.1/apksig-7.0.1.jar"
           ],
-          "sha256": "d8ea8eb467d310850fa80bbcc2b0f9daa8ceec1d1397d26a282f0b1f79b76c89"
+          "sha256": "dbb592349a3ddbe34f054e412a0af99b8fa9c56fa07aeaf2a8bb39314364daa3"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apksig",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "apksig-4.2.1.module",
-          "path": "com/android/tools/build/apksig/4.2.1",
+          "name": "apksig-7.0.1.module",
+          "path": "com/android/tools/build/apksig/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/4.2.1/apksig-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.0.1/apksig-7.0.1.module"
           ],
-          "sha256": "21bc39cbc7bd49e57b2e8e176ae6cc8b12e8383d86ec781132389cd9d948f4be"
+          "sha256": "91e61f016e5619af92123e5b0163362cee39eed3a77fca71c995fa9e7de49c82"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apksig",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "apksig-4.2.1.pom",
-          "path": "com/android/tools/build/apksig/4.2.1",
+          "name": "apksig-7.0.1.pom",
+          "path": "com/android/tools/build/apksig/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/4.2.1/apksig-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.0.1/apksig-7.0.1.pom"
           ],
-          "sha256": "debfcedafcf116d9fee5b12321d9d66b653f8900d14fbad08f6ac5f9baa76400"
+          "sha256": "d761d9fc6b30bb205563684354ea91f8f1f2202030b91e5a28bd4a17bcd3ed48"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apkzlib",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "apkzlib-4.2.1.jar",
-          "path": "com/android/tools/build/apkzlib/4.2.1",
+          "name": "apkzlib-7.0.1.jar",
+          "path": "com/android/tools/build/apkzlib/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/4.2.1/apkzlib-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.0.1/apkzlib-7.0.1.jar"
           ],
-          "sha256": "3278f75167831fab7108f181f9aee89b2fde7d4c630d553ddee30f275701a0ba"
+          "sha256": "1412dd4d73b8a15cd44427cb2236759a2b386d60bd190843236f6dd2808fe9ac"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apkzlib",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "apkzlib-4.2.1.module",
-          "path": "com/android/tools/build/apkzlib/4.2.1",
+          "name": "apkzlib-7.0.1.module",
+          "path": "com/android/tools/build/apkzlib/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/4.2.1/apkzlib-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.0.1/apkzlib-7.0.1.module"
           ],
-          "sha256": "b3926e06e5a8f5167e42fb457ba807510daa1b8844e24acbb98d838d663973f8"
+          "sha256": "7492a308448473f4472aabd7d7e90db5b718a620aa86581be9e82036da90f82e"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "apkzlib",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "apkzlib-4.2.1.pom",
-          "path": "com/android/tools/build/apkzlib/4.2.1",
+          "name": "apkzlib-7.0.1.pom",
+          "path": "com/android/tools/build/apkzlib/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/4.2.1/apkzlib-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.0.1/apkzlib-7.0.1.pom"
           ],
-          "sha256": "e516c7c3fe8848ede30425f66bc6d5fe4391414ca462d9193fc6fb124c59608f"
+          "sha256": "40193ac430c839817808c7a4dae0b1e6ab63e0cec9ab94d6eb49354e984bdfe5"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "builder-4.2.1.jar",
-          "path": "com/android/tools/build/builder/4.2.1",
+          "name": "builder-7.0.1.jar",
+          "path": "com/android/tools/build/builder/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/4.2.1/builder-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.0.1/builder-7.0.1.jar"
           ],
-          "sha256": "7623c31b41671c49aa15d8775a1987d4f4bb54733571d5c3ec84aa1c7b67dc2f"
+          "sha256": "0651ebf9fd0f1d40ed801cc04bbc2e67b7dbdc1779f0c7db696a846f1881881a"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "builder-4.2.1.module",
-          "path": "com/android/tools/build/builder/4.2.1",
+          "name": "builder-7.0.1.module",
+          "path": "com/android/tools/build/builder/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/4.2.1/builder-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.0.1/builder-7.0.1.module"
           ],
-          "sha256": "30e5efd3a2a420c1b8b104747302dd0bac48277d993f9740d2abfd06713e5f25"
+          "sha256": "98e4f277be29c894d1a98c5e69f1049205c01aa354031ad1e17b806a1a933baa"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "builder-4.2.1.pom",
-          "path": "com/android/tools/build/builder/4.2.1",
+          "name": "builder-7.0.1.pom",
+          "path": "com/android/tools/build/builder/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/4.2.1/builder-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.0.1/builder-7.0.1.pom"
           ],
-          "sha256": "0c0ae4d6333b0d5adb0dbb17264271e28069d13592380334bb7af08d5c710056"
+          "sha256": "623b4ff5838d74bb1a7badada6a5dfcf48625cff996a25223327f6b350c8dd79"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-model",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "builder-model-4.2.1.jar",
-          "path": "com/android/tools/build/builder-model/4.2.1",
+          "name": "builder-model-7.0.1.jar",
+          "path": "com/android/tools/build/builder-model/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/4.2.1/builder-model-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.0.1/builder-model-7.0.1.jar"
           ],
-          "sha256": "315dcbfc26b5da56d11b627b31ac82c9bfc02a95e656b9c4eb0fd633b15d64e2"
+          "sha256": "49919373ede92c403d1001cad3167a086b6bdb44d76c199d13bc29015541e339"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-model",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "builder-model-4.2.1.module",
-          "path": "com/android/tools/build/builder-model/4.2.1",
+          "name": "builder-model-7.0.1.module",
+          "path": "com/android/tools/build/builder-model/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/4.2.1/builder-model-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.0.1/builder-model-7.0.1.module"
           ],
-          "sha256": "b1073eb52d436d1b7168845f030dadac915c59d2b6f0c8000dd881852002abc2"
+          "sha256": "a73ab289ecbdc5b995d758cfcaf1b7a40f7804b43dcf6918f900f4eff2b1d58d"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-model",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "builder-model-4.2.1.pom",
-          "path": "com/android/tools/build/builder-model/4.2.1",
+          "name": "builder-model-7.0.1.pom",
+          "path": "com/android/tools/build/builder-model/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/4.2.1/builder-model-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.0.1/builder-model-7.0.1.pom"
           ],
-          "sha256": "848ccc37c34ef7e83e9781d7f3b6d48ae464cb1d8a8111549a64c3e5445dc070"
+          "sha256": "94216eddfcb7230db535b4fa4cdd3f779d4e39a5f7109e706c02d63151d8ca09"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-test-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "builder-test-api-4.2.1.jar",
-          "path": "com/android/tools/build/builder-test-api/4.2.1",
+          "name": "builder-test-api-7.0.1.jar",
+          "path": "com/android/tools/build/builder-test-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/4.2.1/builder-test-api-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/7.0.1/builder-test-api-7.0.1.jar"
           ],
-          "sha256": "7daa32db5b483b750e3c36016443142825b46f867e4750f19d54da659552604c"
+          "sha256": "10e5dd7e280d5540707bb026ae0d17da1efe478d5737e9f1a4359b84e4bd4461"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-test-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "builder-test-api-4.2.1.module",
-          "path": "com/android/tools/build/builder-test-api/4.2.1",
+          "name": "builder-test-api-7.0.1.module",
+          "path": "com/android/tools/build/builder-test-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/4.2.1/builder-test-api-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/7.0.1/builder-test-api-7.0.1.module"
           ],
-          "sha256": "3b9fbf2b314d97ffa93ed3a069249ba01fc9641526ad9786d66208d34ddf7d2f"
+          "sha256": "48ee34943896a38c6fafad9d652665147475dd9de467bf98a9f28c1eda6aaa0c"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "builder-test-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "builder-test-api-4.2.1.pom",
-          "path": "com/android/tools/build/builder-test-api/4.2.1",
+          "name": "builder-test-api-7.0.1.pom",
+          "path": "com/android/tools/build/builder-test-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/4.2.1/builder-test-api-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/7.0.1/builder-test-api-7.0.1.pom"
           ],
-          "sha256": "b932d9b8f5faa2bd3d5cb3d3a4c1198e6c9c8669a1516f16a070c7ce9c2b901d"
+          "sha256": "7fed6317df26d35cccd6c3ca806c65c4b042cf5b35698f06ccd1224192f372d3"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "bundletool",
-            "version": "1.1.0",
+            "version": "1.6.0",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "bundletool-1.1.0.jar",
-          "path": "com/android/tools/build/bundletool/1.1.0",
+          "name": "bundletool-1.6.0.jar",
+          "path": "com/android/tools/build/bundletool/1.6.0",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.1.0/bundletool-1.1.0.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.6.0/bundletool-1.6.0.jar"
           ],
-          "sha256": "4cb02a7963fa7c82c302fdcde679b336e669e928f5bbad00457d9c562ef1cd30"
+          "sha256": "4e168c9fd5ab86b2553f43fd40891cb70b98f4f0f53fd51552d713079044de64"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "bundletool",
-            "version": "1.1.0",
+            "version": "1.6.0",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "bundletool-1.1.0.pom",
-          "path": "com/android/tools/build/bundletool/1.1.0",
+          "name": "bundletool-1.6.0.pom",
+          "path": "com/android/tools/build/bundletool/1.6.0",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.1.0/bundletool-1.1.0.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.6.0/bundletool-1.6.0.pom"
           ],
-          "sha256": "efe2d08fb32cd70a2ce007591bd0ceecbb2091a9b9cb4e10bc597b7bd6e3e654"
+          "sha256": "d251ae5c5ff8d4bcd2fa18ad74083bb6bc905794ccf2b1681a381b7bac83f04f"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "gradle-4.2.1.jar",
-          "path": "com/android/tools/build/gradle/4.2.1",
+          "name": "gradle-7.0.1.jar",
+          "path": "com/android/tools/build/gradle/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.2.1/gradle-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.0.1/gradle-7.0.1.jar"
           ],
-          "sha256": "058d7c727442d3f2bbf325c52cf76d3490c5a2036b192390e3b972fc025dbcf8"
+          "sha256": "13f97d8d04a3c439ac39b9eea04b4317955a7333d6756a715ea1d4fcafa47bf9"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "gradle-4.2.1.module",
-          "path": "com/android/tools/build/gradle/4.2.1",
+          "name": "gradle-7.0.1.module",
+          "path": "com/android/tools/build/gradle/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.2.1/gradle-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.0.1/gradle-7.0.1.module"
           ],
-          "sha256": "fef35a4190a82bed5360b3e711f7418918c457c37a8c9d9c133328b76bcf0bd7"
+          "sha256": "c2643b167300dd6cff9aa78f65ef45e33b3a6b57546ac3f0aba06b2dc2832c29"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "gradle-4.2.1.pom",
-          "path": "com/android/tools/build/gradle/4.2.1",
+          "name": "gradle-7.0.1.pom",
+          "path": "com/android/tools/build/gradle/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.2.1/gradle-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.0.1/gradle-7.0.1.pom"
           ],
-          "sha256": "587a5995b7d7871f06402c66ea1982030c2ea6eb05e5fbfd7381dc0ee3c7bdc8"
+          "sha256": "c6a1f5647f4729858655a5a948f2241f5bc697a5203e14af7f75a44a06c547b4"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "gradle-api-4.2.1.jar",
-          "path": "com/android/tools/build/gradle-api/4.2.1",
+          "name": "gradle-api-7.0.1.jar",
+          "path": "com/android/tools/build/gradle-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/4.2.1/gradle-api-4.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/7.0.1/gradle-api-7.0.1.jar"
           ],
-          "sha256": "1e199938ec9e838852bef9a3e276da5258da875decff307a851eced06b7b297e"
+          "sha256": "e5f37147f8de42bca56f39e3cdf6ca6711a0c415b30d207be6616353d3404bb2"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "gradle-api-4.2.1.module",
-          "path": "com/android/tools/build/gradle-api/4.2.1",
+          "name": "gradle-api-7.0.1.module",
+          "path": "com/android/tools/build/gradle-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/4.2.1/gradle-api-4.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/7.0.1/gradle-api-7.0.1.module"
           ],
-          "sha256": "455a9237f18a13885a559104e0415d302d6f06dc1202a7e6fb2658d1e3f24120"
+          "sha256": "a88bbbb74669243cc7d5208cf8d0990fe3a93e8d61e5eaf8c941df833f8e290d"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "gradle-api",
-            "version": "4.2.1",
+            "version": "7.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "gradle-api-4.2.1.pom",
-          "path": "com/android/tools/build/gradle-api/4.2.1",
+          "name": "gradle-api-7.0.1.pom",
+          "path": "com/android/tools/build/gradle-api/7.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/4.2.1/gradle-api-4.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/7.0.1/gradle-api-7.0.1.pom"
           ],
-          "sha256": "1577380dba161c149d58afd0559e8183ba9b6aaf03c089c6ea4b865d5972ad67"
+          "sha256": "4a2f04c6d937cffb50e52a1c10ea614e24aaa26f876457abed357b2cecaa9df7"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "manifest-merger",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "manifest-merger-27.2.1.jar",
-          "path": "com/android/tools/build/manifest-merger/27.2.1",
+          "name": "manifest-merger-30.0.1.jar",
+          "path": "com/android/tools/build/manifest-merger/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/27.2.1/manifest-merger-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/30.0.1/manifest-merger-30.0.1.jar"
           ],
-          "sha256": "cde7e801b72b798611ba33e384734452bf997ea599b75a3ba4c7476e3702f6aa"
+          "sha256": "2cdf55f9484676e5890e084724892357c44b5a13c23c91d27c4e67abfc8bcd52"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "manifest-merger",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "manifest-merger-27.2.1.module",
-          "path": "com/android/tools/build/manifest-merger/27.2.1",
+          "name": "manifest-merger-30.0.1.module",
+          "path": "com/android/tools/build/manifest-merger/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/27.2.1/manifest-merger-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/30.0.1/manifest-merger-30.0.1.module"
           ],
-          "sha256": "f2bccc05328253c96faf51ab82ee232123d8a37f516386d55654e4854e74a5e4"
+          "sha256": "212f050edd68c33f7da622b26db1d2adc209e39412faf4445747712cef10291f"
         },
         {
           "id": {
             "group": "com.android.tools.build",
             "name": "manifest-merger",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "manifest-merger-27.2.1.pom",
-          "path": "com/android/tools/build/manifest-merger/27.2.1",
+          "name": "manifest-merger-30.0.1.pom",
+          "path": "com/android/tools/build/manifest-merger/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/27.2.1/manifest-merger-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/30.0.1/manifest-merger-30.0.1.pom"
           ],
-          "sha256": "105b94b6aadbbc8bffe83c3cc12a88ce0d4a8e08f4583677615ea479bb3185d4"
+          "sha256": "2d824e062ba45fcf8c5380380e47d4e5a1dceef2f487044df198ee7e118069d0"
         },
         {
           "id": {
@@ -1264,181 +1265,331 @@
           "id": {
             "group": "com.android.tools.ddms",
             "name": "ddmlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "ddmlib-27.2.1.jar",
-          "path": "com/android/tools/ddms/ddmlib/27.2.1",
+          "name": "ddmlib-30.0.1.jar",
+          "path": "com/android/tools/ddms/ddmlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/27.2.1/ddmlib-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/30.0.1/ddmlib-30.0.1.jar"
           ],
-          "sha256": "757b43f32f4c2a57fbc4bfd34e4100be808fcdda240fcba812edbb6702a2b668"
+          "sha256": "9f7f7780122b0011e78126bfd53588221e23f48c194bd0cb6617540fec3710dd"
         },
         {
           "id": {
             "group": "com.android.tools.ddms",
             "name": "ddmlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "ddmlib-27.2.1.module",
-          "path": "com/android/tools/ddms/ddmlib/27.2.1",
+          "name": "ddmlib-30.0.1.module",
+          "path": "com/android/tools/ddms/ddmlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/27.2.1/ddmlib-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/30.0.1/ddmlib-30.0.1.module"
           ],
-          "sha256": "3252077096548e1568c2311dce776950eaa63c0a440f0e07c92ad973296a32c4"
+          "sha256": "b14ca115d7fd62cc725dd94e1ad3f9fa728b8ae12a34f1fd67e41f94d44eadfd"
         },
         {
           "id": {
             "group": "com.android.tools.ddms",
             "name": "ddmlib",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "ddmlib-27.2.1.pom",
-          "path": "com/android/tools/ddms/ddmlib/27.2.1",
+          "name": "ddmlib-30.0.1.pom",
+          "path": "com/android/tools/ddms/ddmlib/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/27.2.1/ddmlib-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/30.0.1/ddmlib-30.0.1.pom"
           ],
-          "sha256": "e2fdcf845124101f6789f531dc05af8eeeaad55f821a90a5f8c99b7a5efe82ac"
+          "sha256": "099091afb1047eee7e4057b9fb032d9aa3db0e4427a9b2aceda46fbf6adc3f9e"
         },
         {
           "id": {
             "group": "com.android.tools.layoutlib",
             "name": "layoutlib-api",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "layoutlib-api-27.2.1.jar",
-          "path": "com/android/tools/layoutlib/layoutlib-api/27.2.1",
+          "name": "layoutlib-api-30.0.1.jar",
+          "path": "com/android/tools/layoutlib/layoutlib-api/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/27.2.1/layoutlib-api-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.0.1/layoutlib-api-30.0.1.jar"
           ],
-          "sha256": "4b6e1395c13d3312324490ce767cb154e9a9046cd89ca921dc0a0e4edd88c07f"
+          "sha256": "682c58516155eae1cf81ecfd35e23caef03b29a712d76144d0ff7d6c09180bc6"
         },
         {
           "id": {
             "group": "com.android.tools.layoutlib",
             "name": "layoutlib-api",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "layoutlib-api-27.2.1.module",
-          "path": "com/android/tools/layoutlib/layoutlib-api/27.2.1",
+          "name": "layoutlib-api-30.0.1.module",
+          "path": "com/android/tools/layoutlib/layoutlib-api/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/27.2.1/layoutlib-api-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.0.1/layoutlib-api-30.0.1.module"
           ],
-          "sha256": "bdf6ba4337cb8b6292418ea56162ccd3fd8f5d46e046b854492f10800feb9782"
+          "sha256": "e9fce8a7f6b5ca7acf5d07066fb2f526d5047deb7b216708b2cf3bcde64e0c53"
         },
         {
           "id": {
             "group": "com.android.tools.layoutlib",
             "name": "layoutlib-api",
-            "version": "27.2.1",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "layoutlib-api-27.2.1.pom",
-          "path": "com/android/tools/layoutlib/layoutlib-api/27.2.1",
+          "name": "layoutlib-api-30.0.1.pom",
+          "path": "com/android/tools/layoutlib/layoutlib-api/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/27.2.1/layoutlib-api-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.0.1/layoutlib-api-30.0.1.pom"
           ],
-          "sha256": "eb4f69154e8cd48bac038c2adbd361100a7693433dcc001c6bbd912c83ff58eb"
+          "sha256": "6dfec100c871fe10032e873f76b1af41203b55f8f3b11a51e1d908779c70bf41"
         },
         {
           "id": {
             "group": "com.android.tools.lint",
-            "name": "lint-gradle-api",
-            "version": "27.2.1",
+            "name": "lint-model",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "lint-gradle-api-27.2.1.jar",
-          "path": "com/android/tools/lint/lint-gradle-api/27.2.1",
+          "name": "lint-model-30.0.1.jar",
+          "path": "com/android/tools/lint/lint-model/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle-api/27.2.1/lint-gradle-api-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/30.0.1/lint-model-30.0.1.jar"
           ],
-          "sha256": "59618021a9252e39a2000cbd8cee23347d262d2e05ab9561fb615e56c4511c35"
-        },
-        {
-          "id": {
-            "group": "com.android.tools.lint",
-            "name": "lint-gradle-api",
-            "version": "27.2.1",
-            "type": "module",
-            "extension": "module"
-          },
-          "name": "lint-gradle-api-27.2.1.module",
-          "path": "com/android/tools/lint/lint-gradle-api/27.2.1",
-          "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle-api/27.2.1/lint-gradle-api-27.2.1.module"
-          ],
-          "sha256": "2196d5cff8cd25600c97f3b4671291d289c358c6326a1e918960870f1887a225"
-        },
-        {
-          "id": {
-            "group": "com.android.tools.lint",
-            "name": "lint-gradle-api",
-            "version": "27.2.1",
-            "type": "pom",
-            "extension": "pom"
-          },
-          "name": "lint-gradle-api-27.2.1.pom",
-          "path": "com/android/tools/lint/lint-gradle-api/27.2.1",
-          "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle-api/27.2.1/lint-gradle-api-27.2.1.pom"
-          ],
-          "sha256": "24bb03c6339010301fba1b33af2505055315d218e71987bdcca8b8c0d838c1dc"
+          "sha256": "2828f0d3ab188f63a5baf9436e02fbe280431e9929b2b3fc0881256d62ac33b7"
         },
         {
           "id": {
             "group": "com.android.tools.lint",
             "name": "lint-model",
-            "version": "27.2.1",
+            "version": "30.0.1",
+            "type": "module",
+            "extension": "module"
+          },
+          "name": "lint-model-30.0.1.module",
+          "path": "com/android/tools/lint/lint-model/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/30.0.1/lint-model-30.0.1.module"
+          ],
+          "sha256": "eb5502f15dd8ab819f7506340da37896b35177edfcfa19a7224f3429fa0aefda"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.lint",
+            "name": "lint-model",
+            "version": "30.0.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "lint-model-30.0.1.pom",
+          "path": "com/android/tools/lint/lint-model/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/30.0.1/lint-model-30.0.1.pom"
+          ],
+          "sha256": "8712d6d3b278b6ffa84da058825c1582d2aef98cfff18acc164070c2e8bdf6b9"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-device-provider-gradle-proto",
+            "version": "30.0.1",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "lint-model-27.2.1.jar",
-          "path": "com/android/tools/lint/lint-model/27.2.1",
+          "name": "android-device-provider-gradle-proto-30.0.1.jar",
+          "path": "com/android/tools/utp/android-device-provider-gradle-proto/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/27.2.1/lint-model-27.2.1.jar"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.0.1/android-device-provider-gradle-proto-30.0.1.jar"
           ],
-          "sha256": "1530bcd47ca17b7b8245cc3f5dd8e4630538c139f9c98ebda508cab1ed9dd1dd"
+          "sha256": "e864d05138b6e6f5dde99343ad5995d060b97ef4c9bebb5f6606bd6f12f7b995"
         },
         {
           "id": {
-            "group": "com.android.tools.lint",
-            "name": "lint-model",
-            "version": "27.2.1",
+            "group": "com.android.tools.utp",
+            "name": "android-device-provider-gradle-proto",
+            "version": "30.0.1",
             "type": "module",
             "extension": "module"
           },
-          "name": "lint-model-27.2.1.module",
-          "path": "com/android/tools/lint/lint-model/27.2.1",
+          "name": "android-device-provider-gradle-proto-30.0.1.module",
+          "path": "com/android/tools/utp/android-device-provider-gradle-proto/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/27.2.1/lint-model-27.2.1.module"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.0.1/android-device-provider-gradle-proto-30.0.1.module"
           ],
-          "sha256": "88e433bc5d4a07f5fcc20e97b941fb811ee2ed528526bc357eb2e3074f9ae57b"
+          "sha256": "798fa0d53773ab29c29017995dcfd1c946b0ea438bd98753c839d7be34fd11c0"
         },
         {
           "id": {
-            "group": "com.android.tools.lint",
-            "name": "lint-model",
-            "version": "27.2.1",
+            "group": "com.android.tools.utp",
+            "name": "android-device-provider-gradle-proto",
+            "version": "30.0.1",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "lint-model-27.2.1.pom",
-          "path": "com/android/tools/lint/lint-model/27.2.1",
+          "name": "android-device-provider-gradle-proto-30.0.1.pom",
+          "path": "com/android/tools/utp/android-device-provider-gradle-proto/30.0.1",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/27.2.1/lint-model-27.2.1.pom"
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.0.1/android-device-provider-gradle-proto-30.0.1.pom"
           ],
-          "sha256": "7a9e205adf3584a623ef5699eb26b54088ea186f7da1646fff93298cdbac6262"
+          "sha256": "ec8599c6d4b2047467f169d8fcf94c6c798dea7b7b1154392ce878f5d853712b"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-host-retention-proto",
+            "version": "30.0.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "android-test-plugin-host-retention-proto-30.0.1.jar",
+          "path": "com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1/android-test-plugin-host-retention-proto-30.0.1.jar"
+          ],
+          "sha256": "7de5a80580e1b8ff6ec297197067dc721fb5665f16cce948170d3d8c8128f4c3"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-host-retention-proto",
+            "version": "30.0.1",
+            "type": "module",
+            "extension": "module"
+          },
+          "name": "android-test-plugin-host-retention-proto-30.0.1.module",
+          "path": "com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1/android-test-plugin-host-retention-proto-30.0.1.module"
+          ],
+          "sha256": "e7007a3439829171dc50c1d8d4246045c338c45a04c30fb2707ed4456dd4bff2"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-host-retention-proto",
+            "version": "30.0.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "android-test-plugin-host-retention-proto-30.0.1.pom",
+          "path": "com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.0.1/android-test-plugin-host-retention-proto-30.0.1.pom"
+          ],
+          "sha256": "30bbedb7aa59d992b4a04cfde7d78cfff20d4ea0322f1eb2e0d443ea3e2f3cd8"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-result-listener-gradle-proto",
+            "version": "30.0.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "android-test-plugin-result-listener-gradle-proto-30.0.1.jar",
+          "path": "com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1/android-test-plugin-result-listener-gradle-proto-30.0.1.jar"
+          ],
+          "sha256": "bb8cd85333325ce7477e9610a9abb59d7b50c865a0133cf479cbfe72a0edcea7"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-result-listener-gradle-proto",
+            "version": "30.0.1",
+            "type": "module",
+            "extension": "module"
+          },
+          "name": "android-test-plugin-result-listener-gradle-proto-30.0.1.module",
+          "path": "com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1/android-test-plugin-result-listener-gradle-proto-30.0.1.module"
+          ],
+          "sha256": "8967ccd71df248441aa663bfa0675069af275b28f5c34970f98e5dd562cd4461"
+        },
+        {
+          "id": {
+            "group": "com.android.tools.utp",
+            "name": "android-test-plugin-result-listener-gradle-proto",
+            "version": "30.0.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "android-test-plugin-result-listener-gradle-proto-30.0.1.pom",
+          "path": "com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1",
+          "urls": [
+            "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.0.1/android-test-plugin-result-listener-gradle-proto-30.0.1.pom"
+          ],
+          "sha256": "a46fe0909fb2cd1b42f54480a26a16768995e04fcba3d90239ece96bcf94cbd7"
+        },
+        {
+          "id": {
+            "group": "com.google.android",
+            "name": "annotations",
+            "version": "4.1.1.4",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "annotations-4.1.1.4.jar",
+          "path": "com/google/android/annotations/4.1.1.4",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar"
+          ],
+          "sha256": "ba734e1e84c09d615af6a09d33034b4f0442f8772dec120efb376d86a565ae15"
+        },
+        {
+          "id": {
+            "group": "com.google.android",
+            "name": "annotations",
+            "version": "4.1.1.4",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "annotations-4.1.1.4.pom",
+          "path": "com/google/android/annotations/4.1.1.4",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.pom"
+          ],
+          "sha256": "e4bb54753c36a27a0e5d70154a5034fedd8feac4282295034bfd483d6c7aae78"
+        },
+        {
+          "id": {
+            "group": "com.google.api.grpc",
+            "name": "proto-google-common-protos",
+            "version": "1.12.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "proto-google-common-protos-1.12.0.jar",
+          "path": "com/google/api/grpc/proto-google-common-protos/1.12.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar"
+          ],
+          "sha256": "bd60cd7a423b00fb824c27bdd0293aaf4781be1daba6ed256311103fb4b84108"
+        },
+        {
+          "id": {
+            "group": "com.google.api.grpc",
+            "name": "proto-google-common-protos",
+            "version": "1.12.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "proto-google-common-protos-1.12.0.pom",
+          "path": "com/google/api/grpc/proto-google-common-protos/1.12.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.pom"
+          ],
+          "sha256": "1562bd44df27231d5eb1641625df72b0fe13e29feeaf55527c85e617decf0e3a"
         },
         {
           "id": {
@@ -1639,46 +1790,46 @@
           "id": {
             "group": "com.google.errorprone",
             "name": "error_prone_annotations",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "error_prone_annotations-2.3.2.jar",
-          "path": "com/google/errorprone/error_prone_annotations/2.3.2",
+          "name": "error_prone_annotations-2.3.4.jar",
+          "path": "com/google/errorprone/error_prone_annotations/2.3.4",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar"
+            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar"
           ],
-          "sha256": "357cd6cfb067c969226c442451502aee13800a24e950fdfde77bcdb4565a668d"
+          "sha256": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
         },
         {
           "id": {
             "group": "com.google.errorprone",
             "name": "error_prone_annotations",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "error_prone_annotations-2.3.2.pom",
-          "path": "com/google/errorprone/error_prone_annotations/2.3.2",
+          "name": "error_prone_annotations-2.3.4.pom",
+          "path": "com/google/errorprone/error_prone_annotations/2.3.4",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.pom"
+            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom"
           ],
-          "sha256": "8d175561619289a527573cfbdcf872eb5c1216cf9ab692a0ef3dba6d793f63b4"
+          "sha256": "1326738a4b4f7ccacf607b866a11fb85193ef60f6a59461187ce7265f9be5bed"
         },
         {
           "id": {
             "group": "com.google.errorprone",
             "name": "error_prone_parent",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "error_prone_parent-2.3.2.pom",
-          "path": "com/google/errorprone/error_prone_parent/2.3.2",
+          "name": "error_prone_parent-2.3.4.pom",
+          "path": "com/google/errorprone/error_prone_parent/2.3.4",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.2/error_prone_parent-2.3.2.pom"
+            "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom"
           ],
-          "sha256": "8d3b5b9fa211979e9c425e989825c07743d2eb4dc8c20ec61de0f5b3dc1a6333"
+          "sha256": "40495b437a60d2398f0fdfc054b89d9c394a82347a274a0721c2e950a4302186"
         },
         {
           "id": {
@@ -1744,31 +1895,31 @@
           "id": {
             "group": "com.google.guava",
             "name": "guava",
-            "version": "28.1-jre",
+            "version": "30.1-jre",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "guava-28.1-jre.jar",
-          "path": "com/google/guava/guava/28.1-jre",
+          "name": "guava-30.1-jre.jar",
+          "path": "com/google/guava/guava/30.1-jre",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
+            "https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar"
           ],
-          "sha256": "30beb8b8527bd07c6e747e77f1a92122c2f29d57ce347461a4a55eb26e382da4"
+          "sha256": "e6dd072f9d3fe02a4600688380bd422bdac184caf6fe2418cfdd0934f09432aa"
         },
         {
           "id": {
             "group": "com.google.guava",
             "name": "guava",
-            "version": "28.1-jre",
+            "version": "30.1-jre",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "guava-28.1-jre.pom",
-          "path": "com/google/guava/guava/28.1-jre",
+          "name": "guava-30.1-jre.pom",
+          "path": "com/google/guava/guava/30.1-jre",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.pom"
+            "https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre.pom"
           ],
-          "sha256": "74af0e8dd935894ce9bcb8e2842dd0001581b84cb6a7751c3ef9314011399ba4"
+          "sha256": "9646d4cd50094d4abe507e555d3f76d77e34a4c5566b22fb130ef55d4ebbe927"
         },
         {
           "id": {
@@ -1789,16 +1940,16 @@
           "id": {
             "group": "com.google.guava",
             "name": "guava-parent",
-            "version": "28.1-jre",
+            "version": "30.1-jre",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "guava-parent-28.1-jre.pom",
-          "path": "com/google/guava/guava-parent/28.1-jre",
+          "name": "guava-parent-30.1-jre.pom",
+          "path": "com/google/guava/guava-parent/30.1-jre",
           "urls": [
-            "https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/28.1-jre/guava-parent-28.1-jre.pom"
+            "https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/30.1-jre/guava-parent-30.1-jre.pom"
           ],
-          "sha256": "f31a5846bd9e14a4c374da1b9b146a5715ecdca925e071e1d2bf4da2daaded90"
+          "sha256": "e2afb747ebc4fe2328d6a90fa88c5d8a83bb1e32061bb9b10ff43e2c47ad6e73"
         },
         {
           "id": {
@@ -1984,31 +2135,31 @@
           "id": {
             "group": "com.google.testing.platform",
             "name": "core-proto",
-            "version": "0.0.8-alpha01",
+            "version": "0.0.8-alpha04",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "core-proto-0.0.8-alpha01.jar",
-          "path": "com/google/testing/platform/core-proto/0.0.8-alpha01",
+          "name": "core-proto-0.0.8-alpha04.jar",
+          "path": "com/google/testing/platform/core-proto/0.0.8-alpha04",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/google/testing/platform/core-proto/0.0.8-alpha01/core-proto-0.0.8-alpha01.jar"
+            "https://dl.google.com/dl/android/maven2/com/google/testing/platform/core-proto/0.0.8-alpha04/core-proto-0.0.8-alpha04.jar"
           ],
-          "sha256": "2deaa8c40f27c8af158ae2c2132927cd9be345deb1450da49aca29cb168289cd"
+          "sha256": "d2bc7a461351e748444ec816c8350dd908046fa346af60399694a98327d60245"
         },
         {
           "id": {
             "group": "com.google.testing.platform",
             "name": "core-proto",
-            "version": "0.0.8-alpha01",
+            "version": "0.0.8-alpha04",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "core-proto-0.0.8-alpha01.pom",
-          "path": "com/google/testing/platform/core-proto/0.0.8-alpha01",
+          "name": "core-proto-0.0.8-alpha04.pom",
+          "path": "com/google/testing/platform/core-proto/0.0.8-alpha04",
           "urls": [
-            "https://dl.google.com/dl/android/maven2/com/google/testing/platform/core-proto/0.0.8-alpha01/core-proto-0.0.8-alpha01.pom"
+            "https://dl.google.com/dl/android/maven2/com/google/testing/platform/core-proto/0.0.8-alpha04/core-proto-0.0.8-alpha04.pom"
           ],
-          "sha256": "501e7a6b743cf4e81643ce31e2850f37477494a689513e756e059c688773867f"
+          "sha256": "edac09fc7040687eb455c536d7c85cf0a18dc1c7d5671db49bb60eaa0658810f"
         },
         {
           "id": {
@@ -2432,6 +2583,591 @@
         },
         {
           "id": {
+            "group": "io.grpc",
+            "name": "grpc-api",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-api-1.21.1.jar",
+          "path": "io/grpc/grpc-api/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.jar"
+          ],
+          "sha256": "009a5d0bdd81fa1d60025a5813172ae21a0b64ae23c639864a75683ae5bac99a"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-api",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-api-1.21.1.pom",
+          "path": "io/grpc/grpc-api/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.pom"
+          ],
+          "sha256": "0da19c53e620e9a89572796e404930a06b72a67537703dbddfca16e0b7c362dc"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-context",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-context-1.21.1.jar",
+          "path": "io/grpc/grpc-context/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.jar"
+          ],
+          "sha256": "a93fea132d401f5ab90f5bf520c550bc81423bfcf4a7998ade9db879dcd78207"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-context",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-context-1.21.1.pom",
+          "path": "io/grpc/grpc-context/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.pom"
+          ],
+          "sha256": "a1c2317cbcc524c04f56c01daa980b68d30e68ee4ba0d3919be4e65206143a06"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-core",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-core-1.21.1.jar",
+          "path": "io/grpc/grpc-core/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.jar"
+          ],
+          "sha256": "1506d0516168b68eedfaa6be1433c137a1e996a465496cfb54d54853cbc9028e"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-core",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-core-1.21.1.pom",
+          "path": "io/grpc/grpc-core/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.pom"
+          ],
+          "sha256": "3a6336fb882f305db2e5e14e9a50d5813819b4304f6eb39f0ee0483f4a70f998"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-netty",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-netty-1.21.1.jar",
+          "path": "io/grpc/grpc-netty/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.jar"
+          ],
+          "sha256": "10435dbf5ede3ca7dd72432a81ff7d508f6b930bfd5fe228d1a59b57ffce9bc7"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-netty",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-netty-1.21.1.pom",
+          "path": "io/grpc/grpc-netty/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.pom"
+          ],
+          "sha256": "ba8400f18d57bdb718d04a643ba4602557d79a9ec80b8ae45157776735754085"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-protobuf",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-protobuf-1.21.1.jar",
+          "path": "io/grpc/grpc-protobuf/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.jar"
+          ],
+          "sha256": "c9c0070c39f95e9d7acad60fdcc3d4c91729a4c12cde15705099b09e201abc01"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-protobuf",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-protobuf-1.21.1.pom",
+          "path": "io/grpc/grpc-protobuf/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.pom"
+          ],
+          "sha256": "66f87675f6178cbe79f4a695e026d62a4c3273f9e6a36608f1698474ab552da3"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-protobuf-lite",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-protobuf-lite-1.21.1.jar",
+          "path": "io/grpc/grpc-protobuf-lite/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.jar"
+          ],
+          "sha256": "1200236e23fa51c2838901d4f9238bbec7a52efd537de832ad9261c81dcddabd"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-protobuf-lite",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-protobuf-lite-1.21.1.pom",
+          "path": "io/grpc/grpc-protobuf-lite/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.pom"
+          ],
+          "sha256": "a8205756baf6cf122725b29534223b91e5c2c458bce4e09fb9e0134ca1c8aff1"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-stub",
+            "version": "1.21.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "grpc-stub-1.21.1.jar",
+          "path": "io/grpc/grpc-stub/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.jar"
+          ],
+          "sha256": "642c328916291287e96702cc5ad1f7d601a0c347c9de0f130219aa0fdc7d5a90"
+        },
+        {
+          "id": {
+            "group": "io.grpc",
+            "name": "grpc-stub",
+            "version": "1.21.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "grpc-stub-1.21.1.pom",
+          "path": "io/grpc/grpc-stub/1.21.1",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.pom"
+          ],
+          "sha256": "edd0cdc3c2211bb2f1360ee7647b94e04763ec519b7fde727aa14360e8ca8e75"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-buffer",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-buffer-4.1.34.Final.jar",
+          "path": "io/netty/netty-buffer/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.34.Final/netty-buffer-4.1.34.Final.jar"
+          ],
+          "sha256": "39dfe88df8505fd01fbf9c1dbb6b6fa9b0297e453c3dc4ce039ea578aea2eaa3"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-buffer",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-buffer-4.1.34.Final.pom",
+          "path": "io/netty/netty-buffer/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.34.Final/netty-buffer-4.1.34.Final.pom"
+          ],
+          "sha256": "af840f4ba71b6642de58c8edc9015d0bdfb22dc99bbc8a407378421a283e9927"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-codec-4.1.34.Final.jar",
+          "path": "io/netty/netty-codec/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final.jar"
+          ],
+          "sha256": "52e9eeb3638a8ed0911c72a508c05fa4f9d3391125eae46f287d3a8a0776211d"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-codec-4.1.34.Final.pom",
+          "path": "io/netty/netty-codec/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final.pom"
+          ],
+          "sha256": "fbd87ea2bb57adb99076803c4daa4e8d174e64900fa160fbce069f6f3cc6e2ae"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-http",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-codec-http-4.1.34.Final.jar",
+          "path": "io/netty/netty-codec-http/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar"
+          ],
+          "sha256": "5df5556ef6b0e7ce7c72a359e4ca774fcdf8d8fe12f0b6332715eaa44cfe41f8"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-http",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-codec-http-4.1.34.Final.pom",
+          "path": "io/netty/netty-codec-http/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.pom"
+          ],
+          "sha256": "c1605ffb433ac123c949ff7dde108f153e208ae01d16076e475bb594a6dcbeb3"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-http2",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-codec-http2-4.1.34.Final.jar",
+          "path": "io/netty/netty-codec-http2/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar"
+          ],
+          "sha256": "319f66f3ab0d3aac3477febf19c259990ee8c639fc7da8822dfa58e7dab1bdcf"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-http2",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-codec-http2-4.1.34.Final.pom",
+          "path": "io/netty/netty-codec-http2/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.pom"
+          ],
+          "sha256": "63276737ca7259c80aa5c17dd55dc16fcfc341f0f277a19e36bc8672b1e94695"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-socks",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-codec-socks-4.1.34.Final.jar",
+          "path": "io/netty/netty-codec-socks/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.34.Final/netty-codec-socks-4.1.34.Final.jar"
+          ],
+          "sha256": "9c4ff58b648193942654db20f172d017441625754b902394f620f04074830346"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-codec-socks",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-codec-socks-4.1.34.Final.pom",
+          "path": "io/netty/netty-codec-socks/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.34.Final/netty-codec-socks-4.1.34.Final.pom"
+          ],
+          "sha256": "e8a907a65eea3b7b35cf51d5cbdf16db03d135a7dcd2c5e37d4a45bc2d44b69a"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-common",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-common-4.1.34.Final.jar",
+          "path": "io/netty/netty-common/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.34.Final/netty-common-4.1.34.Final.jar"
+          ],
+          "sha256": "122931117eacf370b054d0e8a2411efa81de4956a6c3f938b0f0eb915969a425"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-common",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-common-4.1.34.Final.pom",
+          "path": "io/netty/netty-common/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.34.Final/netty-common-4.1.34.Final.pom"
+          ],
+          "sha256": "835c1558222c8a573eee3632128e07a65be89382e64e1a518fe4a644abc92b1a"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-handler",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-handler-4.1.34.Final.jar",
+          "path": "io/netty/netty-handler/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar"
+          ],
+          "sha256": "035616801fe9894ca2490832cf9976536dac740f41e90de1cdd4ba46f04263d1"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-handler",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-handler-4.1.34.Final.pom",
+          "path": "io/netty/netty-handler/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.pom"
+          ],
+          "sha256": "eb757dae1a13af186831e7ab6e6254feb3665a5d9ce19aaf4aaffe2da7d2ad26"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-handler-proxy",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-handler-proxy-4.1.34.Final.jar",
+          "path": "io/netty/netty-handler-proxy/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar"
+          ],
+          "sha256": "f506c6acb97b3e0b0795cf9f0971d80bbab7c17086312fa225b98ccc94be6dff"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-handler-proxy",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-handler-proxy-4.1.34.Final.pom",
+          "path": "io/netty/netty-handler-proxy/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.pom"
+          ],
+          "sha256": "1eea3d1674e1c6444f166f289066374883b078e2a80df65b70222b3d182f5cfb"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-parent",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-parent-4.1.34.Final.pom",
+          "path": "io/netty/netty-parent/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.34.Final/netty-parent-4.1.34.Final.pom"
+          ],
+          "sha256": "7e9e6b7f70ae8a9abe6d17aea391b81f67e20cb8fac55b889cfa519d2a3e4b1f"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-resolver",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-resolver-4.1.34.Final.jar",
+          "path": "io/netty/netty-resolver/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.34.Final/netty-resolver-4.1.34.Final.jar"
+          ],
+          "sha256": "774221ed4c130b532865770b10630bc12d0d400127da617ee0ac8de2a7ac2097"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-resolver",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-resolver-4.1.34.Final.pom",
+          "path": "io/netty/netty-resolver/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.34.Final/netty-resolver-4.1.34.Final.pom"
+          ],
+          "sha256": "acb3c6d3d5623eaf0bb10083f534fa1caa2efe70c2bf1a68d36518abe9723bd4"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-transport",
+            "version": "4.1.34.Final",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "netty-transport-4.1.34.Final.jar",
+          "path": "io/netty/netty-transport/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.jar"
+          ],
+          "sha256": "2b3f7d3a595101def7d411793a675bf2a325964475fd7bdbbe448e908de09445"
+        },
+        {
+          "id": {
+            "group": "io.netty",
+            "name": "netty-transport",
+            "version": "4.1.34.Final",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "netty-transport-4.1.34.Final.pom",
+          "path": "io/netty/netty-transport/4.1.34.Final",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.pom"
+          ],
+          "sha256": "a37233737b815bc54d8084b1328948ecc20b0317a66911d5cd5eaf8849463329"
+        },
+        {
+          "id": {
+            "group": "io.opencensus",
+            "name": "opencensus-api",
+            "version": "0.21.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "opencensus-api-0.21.0.jar",
+          "path": "io/opencensus/opencensus-api/0.21.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar"
+          ],
+          "sha256": "8e2cb0f6391d8eb0a1bcd01e7748883f0033b1941754f4ed3f19d2c3e4276fc8"
+        },
+        {
+          "id": {
+            "group": "io.opencensus",
+            "name": "opencensus-api",
+            "version": "0.21.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "opencensus-api-0.21.0.pom",
+          "path": "io/opencensus/opencensus-api/0.21.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.pom"
+          ],
+          "sha256": "e2f1e8cdb498220315cf0fcdd89f1c0abf3b2bccf9a4ec1f5e59ccbe7848439b"
+        },
+        {
+          "id": {
+            "group": "io.opencensus",
+            "name": "opencensus-contrib-grpc-metrics",
+            "version": "0.21.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "opencensus-contrib-grpc-metrics-0.21.0.jar",
+          "path": "io/opencensus/opencensus-contrib-grpc-metrics/0.21.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar"
+          ],
+          "sha256": "29fc79401082301542cab89d7054d2f0825f184492654c950020553ef4ff0ef8"
+        },
+        {
+          "id": {
+            "group": "io.opencensus",
+            "name": "opencensus-contrib-grpc-metrics",
+            "version": "0.21.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "opencensus-contrib-grpc-metrics-0.21.0.pom",
+          "path": "io/opencensus/opencensus-contrib-grpc-metrics/0.21.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.pom"
+          ],
+          "sha256": "908885a1e63cd6ee8c5d281404d41ed3d5bcb1a642e1c0a3ab285d378ef0758e"
+        },
+        {
+          "id": {
             "group": "it.unimi.dsi",
             "name": "fastutil",
             "version": "8.4.0",
@@ -2702,81 +3438,6 @@
         },
         {
           "id": {
-            "group": "net.sf.proguard",
-            "name": "proguard-base",
-            "version": "6.0.3",
-            "type": "jar",
-            "extension": "jar"
-          },
-          "name": "proguard-base-6.0.3.jar",
-          "path": "net/sf/proguard/proguard-base/6.0.3",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-base/6.0.3/proguard-base-6.0.3.jar"
-          ],
-          "sha256": "75bc89695fa66e75374ecda439b802406f0ab1d826dd386eed0a23b1f0a9d264"
-        },
-        {
-          "id": {
-            "group": "net.sf.proguard",
-            "name": "proguard-base",
-            "version": "6.0.3",
-            "type": "pom",
-            "extension": "pom"
-          },
-          "name": "proguard-base-6.0.3.pom",
-          "path": "net/sf/proguard/proguard-base/6.0.3",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-base/6.0.3/proguard-base-6.0.3.pom"
-          ],
-          "sha256": "2a823d79f2675582a988d539466d1b175e939782efbe0f6e61f06cb165ed4907"
-        },
-        {
-          "id": {
-            "group": "net.sf.proguard",
-            "name": "proguard-gradle",
-            "version": "6.0.3",
-            "type": "jar",
-            "extension": "jar"
-          },
-          "name": "proguard-gradle-6.0.3.jar",
-          "path": "net/sf/proguard/proguard-gradle/6.0.3",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-gradle/6.0.3/proguard-gradle-6.0.3.jar"
-          ],
-          "sha256": "cc12b1168e521491dd0e687cfebec11a4af874b22af70e10cf2a05b47ca00c8f"
-        },
-        {
-          "id": {
-            "group": "net.sf.proguard",
-            "name": "proguard-gradle",
-            "version": "6.0.3",
-            "type": "pom",
-            "extension": "pom"
-          },
-          "name": "proguard-gradle-6.0.3.pom",
-          "path": "net/sf/proguard/proguard-gradle/6.0.3",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-gradle/6.0.3/proguard-gradle-6.0.3.pom"
-          ],
-          "sha256": "5a5c7317d68ce80d1d40c9d8bd4e38814d42d1b16c265146e333634833a35a57"
-        },
-        {
-          "id": {
-            "group": "net.sf.proguard",
-            "name": "proguard-parent",
-            "version": "6.0.3",
-            "type": "pom",
-            "extension": "pom"
-          },
-          "name": "proguard-parent-6.0.3.pom",
-          "path": "net/sf/proguard/proguard-parent/6.0.3",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-parent/6.0.3/proguard-parent-6.0.3.pom"
-          ],
-          "sha256": "d87266bfd2312c3b036c4ac709310afa35c448ceb18027c3b87a33d03c6de0a0"
-        },
-        {
-          "id": {
             "group": "org.antlr",
             "name": "antlr4",
             "version": "4.5.3",
@@ -2869,21 +3530,6 @@
           "id": {
             "group": "org.apache",
             "name": "apache",
-            "version": "16",
-            "type": "pom",
-            "extension": "pom"
-          },
-          "name": "apache-16.pom",
-          "path": "org/apache/apache/16",
-          "urls": [
-            "https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom"
-          ],
-          "sha256": "9f85ff2fd7d6cb3097aa47fb419ee7f0ebe869109f98aba9f4eca3f49e74a40e"
-        },
-        {
-          "id": {
-            "group": "org.apache",
-            "name": "apache",
             "version": "18",
             "type": "pom",
             "extension": "pom"
@@ -2897,33 +3543,48 @@
         },
         {
           "id": {
-            "group": "org.apache.commons",
-            "name": "commons-compress",
-            "version": "1.12",
-            "type": "jar",
-            "extension": "jar"
+            "group": "org.apache",
+            "name": "apache",
+            "version": "21",
+            "type": "pom",
+            "extension": "pom"
           },
-          "name": "commons-compress-1.12.jar",
-          "path": "org/apache/commons/commons-compress/1.12",
+          "name": "apache-21.pom",
+          "path": "org/apache/apache/21",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar"
+            "https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom"
           ],
-          "sha256": "2c1542faf343185b7cab9c3d55c8ae5471d6d095d3887a4adefdbdf2984dc0b6"
+          "sha256": "af10c108da014f17cafac7b52b2b4b5a3a1c18265fa2af97a325d9143537b380"
         },
         {
           "id": {
             "group": "org.apache.commons",
             "name": "commons-compress",
-            "version": "1.12",
+            "version": "1.20",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "commons-compress-1.20.jar",
+          "path": "org/apache/commons/commons-compress/1.20",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar"
+          ],
+          "sha256": "0aeb625c948c697ea7b205156e112363b59ed5e2551212cd4e460bdb72c7c06e"
+        },
+        {
+          "id": {
+            "group": "org.apache.commons",
+            "name": "commons-compress",
+            "version": "1.20",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "commons-compress-1.12.pom",
-          "path": "org/apache/commons/commons-compress/1.12",
+          "name": "commons-compress-1.20.pom",
+          "path": "org/apache/commons/commons-compress/1.20",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom"
+            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom"
           ],
-          "sha256": "b787d574c851505e76212968b9ae1641ea79804aef7f5a2cee2a01cd4055213a"
+          "sha256": "d95678e3af56b17c7db6cff9645efad5eb59be9f3c1caaaf5f0146edf04691d7"
         },
         {
           "id": {
@@ -2974,16 +3635,16 @@
           "id": {
             "group": "org.apache.commons",
             "name": "commons-parent",
-            "version": "39",
+            "version": "48",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "commons-parent-39.pom",
-          "path": "org/apache/commons/commons-parent/39",
+          "name": "commons-parent-48.pom",
+          "path": "org/apache/commons/commons-parent/48",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom"
+            "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom"
           ],
-          "sha256": "87cd27e1a02a5c3eb6d85059ce98696bb1b44c2b8b650f0567c86df60fa61da7"
+          "sha256": "1e1f7de9370a7b7901f128f1dacd1422be74e3f47f9558b0f79e04c0637ca0b4"
         },
         {
           "id": {
@@ -3184,91 +3845,91 @@
           "id": {
             "group": "org.checkerframework",
             "name": "checker-qual",
-            "version": "2.8.1",
+            "version": "3.5.0",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "checker-qual-2.8.1.jar",
-          "path": "org/checkerframework/checker-qual/2.8.1",
+          "name": "checker-qual-3.5.0.jar",
+          "path": "org/checkerframework/checker-qual/3.5.0",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar"
+            "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar"
           ],
-          "sha256": "9103499008bcecd4e948da29b17864abb64304e15706444ae209d17ebe0575df"
+          "sha256": "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4"
         },
         {
           "id": {
             "group": "org.checkerframework",
             "name": "checker-qual",
-            "version": "2.8.1",
+            "version": "3.5.0",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "checker-qual-2.8.1.pom",
-          "path": "org/checkerframework/checker-qual/2.8.1",
+          "name": "checker-qual-3.5.0.pom",
+          "path": "org/checkerframework/checker-qual/3.5.0",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.pom"
+            "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.pom"
           ],
-          "sha256": "f23376b58ed795f2ff47426ac76b996d49e3918442e5d8713e3925f889a77799"
+          "sha256": "2836b3b8a78edb31a1803592e60fc767b21f2d190764631ba6efa0837bb35721"
         },
         {
           "id": {
             "group": "org.codehaus.mojo",
             "name": "animal-sniffer-annotations",
-            "version": "1.18",
+            "version": "1.17",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "animal-sniffer-annotations-1.18.jar",
-          "path": "org/codehaus/mojo/animal-sniffer-annotations/1.18",
+          "name": "animal-sniffer-annotations-1.17.jar",
+          "path": "org/codehaus/mojo/animal-sniffer-annotations/1.17",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar"
+            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar"
           ],
-          "sha256": "47f05852b48ee9baefef80fa3d8cea60efa4753c0013121dd7fe5eef2e5c729d"
+          "sha256": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
         },
         {
           "id": {
             "group": "org.codehaus.mojo",
             "name": "animal-sniffer-annotations",
-            "version": "1.18",
+            "version": "1.17",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "animal-sniffer-annotations-1.18.pom",
-          "path": "org/codehaus/mojo/animal-sniffer-annotations/1.18",
+          "name": "animal-sniffer-annotations-1.17.pom",
+          "path": "org/codehaus/mojo/animal-sniffer-annotations/1.17",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.pom"
+            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom"
           ],
-          "sha256": "adf522f4839c35f5329ea97c407aebebfa8807b644852dc4d5cd7c97b7a6d2e0"
+          "sha256": "e956ab5d2eb48fabae12300d0cd2d3294d4a2a41abc2068c23cb4d60ad76cbe5"
         },
         {
           "id": {
             "group": "org.codehaus.mojo",
             "name": "animal-sniffer-parent",
-            "version": "1.18",
+            "version": "1.17",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "animal-sniffer-parent-1.18.pom",
-          "path": "org/codehaus/mojo/animal-sniffer-parent/1.18",
+          "name": "animal-sniffer-parent-1.17.pom",
+          "path": "org/codehaus/mojo/animal-sniffer-parent/1.17",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.18/animal-sniffer-parent-1.18.pom"
+            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom"
           ],
-          "sha256": "4e9df546a47cf6304a1317c46870100a8726fbea11b0dd18322f957e4070973c"
+          "sha256": "18a03df16e2a184c582db7b125633c15fb7714027a84c1b532d72933dc08b81f"
         },
         {
           "id": {
             "group": "org.codehaus.mojo",
             "name": "mojo-parent",
-            "version": "50",
+            "version": "40",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "mojo-parent-50.pom",
-          "path": "org/codehaus/mojo/mojo-parent/50",
+          "name": "mojo-parent-40.pom",
+          "path": "org/codehaus/mojo/mojo-parent/40",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/50/mojo-parent-50.pom"
+            "https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom"
           ],
-          "sha256": "f819cad1b15b6a7791c8b601e96bde33765e4681395807db4537d2f0dedd493b"
+          "sha256": "fc648dcdc404f8bf66e0583914ecf980176618201227bea114fae85043cb755e"
         },
         {
           "id": {
@@ -3469,151 +4130,151 @@
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-reflect",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "kotlin-reflect-1.4.31.jar",
-          "path": "org/jetbrains/kotlin/kotlin-reflect/1.4.31",
+          "name": "kotlin-reflect-1.4.32.jar",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.31/kotlin-reflect-1.4.31.jar"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar"
           ],
-          "sha256": "91fad0b42974a7d5811e30a61f05706e176b144235717c6de7e81e3a781028f2"
+          "sha256": "dbf19e9cdaa9c3c170f3f6f6ce3922f38dfc1d7fa1cab5b7c23a19da8b5eec5b"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-reflect",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "kotlin-reflect-1.4.31.pom",
-          "path": "org/jetbrains/kotlin/kotlin-reflect/1.4.31",
+          "name": "kotlin-reflect-1.4.32.pom",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.31/kotlin-reflect-1.4.31.pom"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.pom"
           ],
-          "sha256": "8e49bab843dd855f315c87e390c529a9ca239121d8bffb85b3acfa2f60603697"
+          "sha256": "909d0b8a326568c4db341f21b5f0e221c75c002896a4ea3b170aa5a1569a0e54"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "kotlin-stdlib-1.4.31.jar",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.4.31",
+          "name": "kotlin-stdlib-1.4.32.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.31/kotlin-stdlib-1.4.31.jar"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar"
           ],
-          "sha256": "76a599d88b167e8ac90879b6daa722c6ad3452ba714c9aba19bd196544b97f1c"
+          "sha256": "13e9fd3e69dc7230ce0fc873a92a4e5d521d179bcf1bef75a6705baac3bfecba"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "kotlin-stdlib-1.4.31.pom",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.4.31",
+          "name": "kotlin-stdlib-1.4.32.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.31/kotlin-stdlib-1.4.31.pom"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.pom"
           ],
-          "sha256": "8519e3e7ac5ee700527ee10488eb432f1aa106dccdde7c06c3bab258a1ddbd4e"
+          "sha256": "c9bc5bc7615b25e6aab3e4dbb09c583f189fb12fbb3a197d5625ec06f7e61927"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-common",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "kotlin-stdlib-common-1.4.31.jar",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.4.31",
+          "name": "kotlin-stdlib-common-1.4.32.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.31/kotlin-stdlib-common-1.4.31.jar"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar"
           ],
-          "sha256": "57962f44371a746b678218a0802a8712c6255206de9a69ede215e3aa4b044708"
+          "sha256": "e1ff6f55ee9e7591dcc633f7757bac25a7edb1cc7f738b37ec652f10f66a4145"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-common",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "kotlin-stdlib-common-1.4.31.pom",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.4.31",
+          "name": "kotlin-stdlib-common-1.4.32.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.31/kotlin-stdlib-common-1.4.31.pom"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.pom"
           ],
-          "sha256": "1582ab130b68fcbb89b2e915573c1f99f8ba3bc68fdd451f6b362d6c53353187"
+          "sha256": "2ef683038382532fc14da37c50e1c4609bb76a7e6ff2e330f062c164217f4483"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-jdk7",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "kotlin-stdlib-jdk7-1.4.31.jar",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.31",
+          "name": "kotlin-stdlib-jdk7-1.4.32.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.31/kotlin-stdlib-jdk7-1.4.31.jar"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.jar"
           ],
-          "sha256": "1f966e54e86cf4b7d7014afdce04e0f3ee4625084cda3494edccc7b84af52664"
+          "sha256": "5f801e75ca27d8791c14b07943c608da27620d910a8093022af57f543d5d98b6"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-jdk7",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "kotlin-stdlib-jdk7-1.4.31.pom",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.31",
+          "name": "kotlin-stdlib-jdk7-1.4.32.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.31/kotlin-stdlib-jdk7-1.4.31.pom"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.pom"
           ],
-          "sha256": "f67e52bebc23a07e23d51e525d20f59de8da6720bde2ff7c598f99ba9c272118"
+          "sha256": "064c379ad8b7e787ae8863c414bfc732814070c6841b525ba3627c1c333ceabb"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-jdk8",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "jar",
             "extension": "jar"
           },
-          "name": "kotlin-stdlib-jdk8-1.4.31.jar",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.31",
+          "name": "kotlin-stdlib-jdk8-1.4.32.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.31/kotlin-stdlib-jdk8-1.4.31.jar"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.jar"
           ],
-          "sha256": "b2f8364435ebcb0106ff9d4415a11ffdef8ec7786ee6e5ed465a01556cbd1683"
+          "sha256": "adc43e54757b106e0cd7b3b7aa257dff471b61efdabe067fc02b2f57e2396262"
         },
         {
           "id": {
             "group": "org.jetbrains.kotlin",
             "name": "kotlin-stdlib-jdk8",
-            "version": "1.4.31",
+            "version": "1.4.32",
             "type": "pom",
             "extension": "pom"
           },
-          "name": "kotlin-stdlib-jdk8-1.4.31.pom",
-          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.31",
+          "name": "kotlin-stdlib-jdk8-1.4.32.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32",
           "urls": [
-            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.31/kotlin-stdlib-jdk8-1.4.31.pom"
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.pom"
           ],
-          "sha256": "4ee4f626e69f5f6fdad8cd28ad555a0ff416c84f25a569ec0a4b3587f86df457"
+          "sha256": "e552e23edc0e7bc29f341645fb9327c82527e37dfe4bde13ba4a3af36de23fdb"
         },
         {
           "id": {
