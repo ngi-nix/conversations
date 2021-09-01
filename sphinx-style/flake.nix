@@ -73,11 +73,33 @@
             includeExtras = android.extras;
           });
 
-          conversations = callPackage ./pkgs/conversations {
-            version = "0.1.0";
-            # src contains a patched copy of github:inputmice/conversations
-            src = ./src;
-            inherit android;
+          conversations = (pkgs.callPackage ./gradle-env.nix {}) rec {
+            envSpec = ./gradle-env.json;
+    
+            src = conversations-src;
+
+            buildJdk = pkgs.jdk11;
+            ANDROID_SDK_ROOT = "${pkgs.sdk.androidsdk}/libexec/android-sdk";
+    
+            preBuild = ''
+              # Make gradle aware of Android SDK.
+              # See https://github.com/tadfisher/gradle2nix/issues/13
+              echo "sdk.dir = ${sdk.androidsdk}/libexec/android-sdk" > local.properties
+              printf "\nandroid.aapt2FromMavenOverride=${sdk.androidsdk}/libexec/android-sdk/build-tools/${android.versions.buildTools}/aapt2" >> gradle.properties
+            '';
+
+            gradleFlags = [
+              "assembleConversationsFreeSystemDebug"
+            ];
+
+            installPhase = ''
+              mkdir -p $out
+              find . -name '*.apk' -exec cp {} $out \;
+            '';
+
+            nativeBuildInputs = [
+              pkgs.breakpointHook
+            ];
           };
         };
 
@@ -116,14 +138,16 @@
                 gnused
                 gradle2nix.outputs.defaultPackage."${system}"
               ])}
+              export JAVA_HOME=${pkgs.jdk11.home};
+              export ANDROID_SDK_ROOT="${pkgs.sdk.androidsdk}/libexec/android-sdk"
               set -e
               rm -rf src
               cp -r ${conversations-src} src
               chmod -R +w src
               
               gradle2nix \
-                -o pkgs/conversations/ \
-                -a assembleConversationsFreeSystemDebug \
+                -o . \
+                -c assembleConversationsFreeSystemDebug \
                 src
               rm -rf src
             '');
